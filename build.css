@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Dire Wolf", sans-serif;
+  font-size: 22px;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.menu {
+  background: rgb(22, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+}
+.menu h1 {
+  color: white;
+  font-size: 36px;
+}
+.menu img {
+  height: 35px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+ul a:hover {
+  color: red;
+}
+
+.background {
+  background: url("./imgs/background.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+}
+.grid .left-grid-column img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.grid img {
+  width: 100%;
+}
+.grid .middle-grid-column {
+  background-color: rgb(15, 15, 15);
+  padding: 3rem;
+  color: white;
+}
+.grid .middle-grid-column p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=build.css.map */
