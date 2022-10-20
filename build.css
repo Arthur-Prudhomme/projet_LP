@@ -18,6 +18,9 @@ body {
 body h1 {
   font-size: 40px;
 }
+body h2 {
+  font-size: 28px;
+}
 body p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -189,6 +192,37 @@ footer img {
 }
 .grid h1 {
   text-align: center;
+}
+
+.grid-pages-infos {
+  position: relative;
+  margin: 1rem auto 1rem auto;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+}
+.grid-pages-infos p {
+  margin: 1rem auto 1rem auto;
+  text-align: left;
+}
+.grid-pages-infos img {
+  width: 100%;
+}
+
+.geo-details .geo-infos {
+  background-color: rgb(65, 60, 60);
+  padding: 15px;
+  position: relative;
+  margin: 1rem auto 1rem auto;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+.geo-details img {
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=build.css.map */

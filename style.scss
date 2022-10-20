@@ -13,8 +13,10 @@ body{
     background-color: rgb(22, 22, 22);
     color: white;
     h1{
-        
         font-size: 40px;
+    }
+    h2{
+        font-size: 28px;
     }
     position: relative;
     margin: 0;
@@ -152,5 +154,38 @@ footer {
     }
     h1{
         text-align: center;
+    }
+}
+
+.grid-pages-infos{
+    position: relative;
+    margin: 1rem auto 1rem auto;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    p{
+        margin: 1rem auto 1rem auto;
+        text-align: left;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.geo-details{
+    .geo-infos{
+        background-color: rgb(65, 60, 60);
+        padding: 15px;
+        position: relative;
+        margin: 1rem auto 1rem auto;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        width: 50%;
+    }
+    img{
+        width: 50%;
+        margin-bottom: 1rem;
     }
 }
