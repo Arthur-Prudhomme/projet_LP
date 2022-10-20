@@ -9,10 +9,22 @@
 
 body {
   background-color: rgb(22, 22, 22);
+  color: white;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+body h1 {
+  font-size: 40px;
+}
+body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .menu {
-  background: rgba(22, 22, 22, 0.8);
+  background: rgba(15, 15, 15, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,10 +33,6 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-.menu h1 {
-  color: white;
-  font-size: 40px;
 }
 .menu img {
   height: 80px;
@@ -40,7 +48,7 @@ ul a {
   text-decoration: none;
 }
 ul a:hover {
-  color: red;
+  color: wheat;
 }
 
 .background {
@@ -50,12 +58,33 @@ ul a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0px -75px 69px 7px rgba(0, 0, 0, 0.75) inset;
+}
+
+.background-history {
+  background: url("./imgs/background-history.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px -75px 69px 7px rgba(0, 0, 0, 0.75) inset;
+}
+
+.background-details {
+  background: url("./imgs/background-details.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px -75px 69px 7px rgba(0, 0, 0, 0.75) inset;
 }
 
 .img-slider {
   display: flex;
-  margin: 0 auto 0 auto;
-  width: 60%;
+  margin: 0 auto 1rem auto;
+  width: 50%;
 }
 
 @keyframes g-souffert {
@@ -111,12 +140,55 @@ div#slider figure {
 }
 
 .infos p {
-  width: 60%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  color: white;
+  width: 50%;
   margin: 1rem auto 1rem auto;
   text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(8, 8, 8);
+  justify-content: space-between;
+  padding: 50px 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+footer img {
+  height: 35px;
+}
+
+.grid-container {
+  display: flex;
+  position: relative;
+  margin: 1rem auto 1rem auto;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+.grid-container h1, .grid-container p {
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  gap: 10px;
+  align-items: center;
+}
+.grid img {
+  object-fit: cover;
+  width: 100%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.grid img:hover {
+  opacity: 0.5;
+}
+.grid h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=build.css.map */
