@@ -24,10 +24,10 @@ body {
 }
 .menu h1 {
   color: white;
-  font-size: 36px;
+  font-size: 40px;
 }
 .menu img {
-  height: 35px;
+  height: 80px;
 }
 
 ul {
@@ -52,18 +52,10 @@ ul a:hover {
   background-repeat: no-repeat;
 }
 
-.grid {
-  padding-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: auto;
-}
-.grid .left-grid-column img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.grid img {
-  width: 100%;
+.img-slider {
+  display: flex;
+  margin: 0 auto 0 auto;
+  width: 60%;
 }
 
 @keyframes g-souffert {
@@ -118,15 +110,13 @@ div#slider figure {
   animation: 16s g-souffert infinite;
 }
 
-.infos {
-  background: rgba(6, 6, 6, 0.8);
-  height: 30rem;
-}
 .infos p {
+  width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: white;
-  margin: 0 6rem;
+  margin: 1rem auto 1rem auto;
+  text-align: left;
 }
 
 /*# sourceMappingURL=build.css.map */
