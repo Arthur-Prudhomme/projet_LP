@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <link href="./build.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="icon" href="./imgs/skull.png">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <title>Les Catacombes de Paris</title>
@@ -22,38 +21,48 @@
                 <li><a href="history.html">L'Histoire</a></li>
                 <li><a href="details.html">Détails Géographique</a></li>
             </ul>
+
+            <div id="burger-menu">
+                <span></span>
+              </div>
+              <div id="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="history.html">L'Histoire</a></li>
+                    <li><a href="details.html">Détails Géographique</a></li>
+                </ul>
+              </div>
         </nav>
     </header>
+        <div class="background"></div>
 
-    <div class="background"></div>
+        <section class="infos">
 
-    <section class="infos">
+                <p>À la fin du XVIIIe siècle de grands problèmes de salubrité liés aux cimetières de la ville entraînent la décision de transférer leurs contenus sous terre. Les autorités parisiennes choisissent un site facile d’accès, situé alors en dehors de la capitale : les anciennes carrières de la Tombe-Issoire, sous la plaine de Montrouge. Les premières évacuations ont lieu de 1785 à 1787 et touchent le cimetière le plus important de Paris, les Saints-Innocents.</p>
 
-            <p>À la fin du XVIIIe siècle de grands problèmes de salubrité liés aux cimetières de la ville entraînent la décision de transférer leurs contenus sous terre. Les autorités parisiennes choisissent un site facile d’accès, situé alors en dehors de la capitale : les anciennes carrières de la Tombe-Issoire, sous la plaine de Montrouge. Les premières évacuations ont lieu de 1785 à 1787 et touchent le cimetière le plus important de Paris, les Saints-Innocents.</p>
+                <p>Le site est consacré "Ossuaire municipal de Paris" le 7 avril 1786 et s’approprie dès ce moment le terme mythique de "Catacombes", en référence aux catacombes de Rome, objet de fascination publique depuis leur découverte. À partir de 1809, les Catacombes deviennent accessibles au public sur rendez-vous.</p>
+        </section>
 
-            <p>Le site est consacré "Ossuaire municipal de Paris" le 7 avril 1786 et s’approprie dès ce moment le terme mythique de "Catacombes", en référence aux catacombes de Rome, objet de fascination publique depuis leur découverte. À partir de 1809, les Catacombes deviennent accessibles au public sur rendez-vous.</p>
-    </section>
+        <section class="img-slider">
+            <div id="slider">
+                <figure>
+                    <img src="./imgs/slider-1.jpg" alt>
+                    <img src="./imgs/slider-2.jpg" alt>
+                    <img src="./imgs/slider-3.jpg" alt>
+                    <img src="./imgs/slider-4.jpg" alt>
+                    <img src="./imgs/slider-1.jpg" alt>
+                </figure>
+            </div>
+        </section>
 
-    <section class="img-slider">
-        <div id="slider">
-            <figure>
-                <img src="./imgs/slider-1.jpg" alt>
-                <img src="./imgs/slider-2.jpg" alt>
-                <img src="./imgs/slider-3.jpg" alt>
-                <img src="./imgs/slider-4.jpg" alt>
-                <img src="./imgs/slider-1.jpg" alt>
-            </figure>
-        </div>
-    </section>
-
-    <footer>
-        <h1>Les Catacombes de Paris</h1>
-        <ul>
-            <li><a href="https://www.facebook.com/CatacombesParisOff/"><img src="./imgs/facebook.png" alt=""></a></li>
-            <li><a href="https://twitter.com/parismusees"><img src="./imgs/twitter.png" alt=""></a></li>
-        </ul>
-    </footer>
-
+        <footer>
+            <h1>Les Catacombes de Paris</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/CatacombesParisOff/"><img src="./imgs/facebook.png" alt=""></a></li>
+                <li><a href="https://twitter.com/parismusees"><img src="./imgs/twitter.png" alt=""></a></li>
+            </ul>
+        </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
