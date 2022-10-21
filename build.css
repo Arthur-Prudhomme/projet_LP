@@ -10,6 +10,7 @@
 body {
   background-color: rgb(22, 22, 22);
   color: white;
+  overflow-x: hidden;
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
@@ -87,7 +88,12 @@ ul a:hover {
 .img-slider {
   display: flex;
   margin: 0 auto 1rem auto;
-  width: 50%;
+  width: 800px;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .img-slider {
+    width: 95%;
+  }
 }
 
 @keyframes g-souffert {
@@ -143,9 +149,14 @@ div#slider figure {
 }
 
 .infos p {
-  width: 50%;
+  width: 800px;
   margin: 1rem auto 1rem auto;
   text-align: left;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .infos p {
+    width: 95%;
+  }
 }
 
 footer {
@@ -169,10 +180,23 @@ footer img {
   margin: 1rem auto 1rem auto;
   justify-content: center;
   gap: 20px;
-  width: 50%;
+  width: 800px;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .grid-container {
+    width: 95%;
+  }
 }
 .grid-container h1, .grid-container p {
   text-align: right;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .grid-container {
+    display: block;
+  }
+  .grid-container h1, .grid-container p {
+    text-align: center;
+  }
 }
 
 .grid {
@@ -193,13 +217,23 @@ footer img {
 .grid h1 {
   text-align: center;
 }
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .grid {
+    display: block;
+  }
+}
 
 .grid-pages-infos {
   position: relative;
   margin: 1rem auto 1rem auto;
   justify-content: center;
-  width: 50%;
+  width: 800px;
   align-items: center;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .grid-pages-infos {
+    width: 95%;
+  }
 }
 .grid-pages-infos p {
   margin: 1rem auto 1rem auto;
@@ -215,14 +249,23 @@ footer img {
   position: relative;
   margin: 1rem auto 1rem auto;
   justify-content: center;
-  width: 50%;
+  width: 800px;
   align-items: center;
   display: flex;
-  width: 50%;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .geo-details .geo-infos {
+    width: 95%;
+  }
 }
 .geo-details img {
-  width: 50%;
+  width: 800px;
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .geo-details img {
+    width: 95%;
+  }
 }
 
 /*# sourceMappingURL=build.css.map */
