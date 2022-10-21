@@ -173,6 +173,14 @@ footer {
 footer img {
   height: 35px;
 }
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  footer {
+    justify-content: center;
+  }
+  footer h1 {
+    display: none;
+  }
+}
 
 .grid-container {
   display: flex;

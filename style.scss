@@ -125,6 +125,13 @@ footer {
     img{
         height: 35px;
     }
+    @media screen and (max-width : 850px) and (max-aspect-ratio: 3/2){
+        justify-content:center;
+        h1{
+            display: none;
+        }
+    }
+
 }
 
 .grid-container{
