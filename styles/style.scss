@@ -190,7 +190,7 @@ footer {
     img{
         width: 100%;
     }
-    
+
 }
 
 .geo-details{
@@ -203,8 +203,12 @@ footer {
         @include mixins.responsive();
         align-items: center;
         display: flex;
+        @media screen and (max-width : 850px) and (max-aspect-ratio: 3/2){
+            display: block;
+        }
         div{
             padding: 10px;
+            
         }
     }
     img{

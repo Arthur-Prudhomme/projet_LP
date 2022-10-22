@@ -266,6 +266,11 @@ footer img {
     width: 95%;
   }
 }
+@media screen and (max-width: 850px) and (max-aspect-ratio: 3/2) {
+  .geo-details .geo-infos {
+    display: block;
+  }
+}
 .geo-details .geo-infos div {
   padding: 10px;
 }
