@@ -56,7 +56,7 @@ ul a:hover {
 }
 
 .background {
-  background: url("./imgs/background.jpg");
+  background: url("../imgs/background.jpg");
   width: 100%;
   height: 500px;
   background-position: center;
@@ -66,7 +66,7 @@ ul a:hover {
 }
 
 .background-history {
-  background: url("./imgs/background-history.jpg");
+  background: url("../imgs/background-history.jpg");
   width: 100%;
   height: 500px;
   background-position: center;
@@ -76,7 +76,7 @@ ul a:hover {
 }
 
 .background-details {
-  background: url("./imgs/background-details.jpg");
+  background: url("../imgs/background-details.jpg");
   width: 100%;
   height: 500px;
   background-position: center;
@@ -253,7 +253,7 @@ footer img {
 
 .geo-details .geo-infos {
   background-color: rgb(65, 60, 60);
-  padding: 15px;
+  padding: 5px;
   position: relative;
   margin: 1rem auto 1rem auto;
   justify-content: center;
@@ -265,6 +265,9 @@ footer img {
   .geo-details .geo-infos {
     width: 95%;
   }
+}
+.geo-details .geo-infos div {
+  padding: 10px;
 }
 .geo-details img {
   width: 800px;
@@ -349,8 +352,8 @@ footer img {
 #menu.overlay {
   visibility: visible;
   opacity: 1;
-  padding-top: 100px;
-  background: rgba(0, 0, 0, 0.8);
+  padding-top: 150px;
+  background: rgba(0, 0, 0, 0.9);
 }
 #menu ul {
   padding: 0;

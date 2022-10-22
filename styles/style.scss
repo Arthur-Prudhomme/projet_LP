@@ -62,17 +62,17 @@ ul{
 }
 
 .background{
-    background: url("./imgs/background.jpg");
+    background: url("../imgs/background.jpg");
     @include mixins.bgall;
 }
 
 .background-history{
-    background: url("./imgs/background-history.jpg");
+    background: url("../imgs/background-history.jpg");
     @include mixins.bgall;
 }
 
 .background-details{
-    background: url("./imgs/background-details.jpg");
+    background: url("../imgs/background-details.jpg");
     @include mixins.bgall;
 }
 
@@ -196,13 +196,16 @@ footer {
 .geo-details{
     .geo-infos{
         background-color: rgb(65, 60, 60);
-        padding: 15px;
+        padding: 5px;
         position: relative;
         margin: 1rem auto 1rem auto;
         justify-content: center;
         @include mixins.responsive();
         align-items: center;
         display: flex;
+        div{
+            padding: 10px;
+        }
     }
     img{
         @include mixins.responsive();
@@ -303,8 +306,8 @@ footer {
 	&.overlay {
 		visibility: visible;
 		opacity: 1;
-		padding-top: 100px;
-		background: rgba(0, 0, 0, 0.8);
+		padding-top: 150px;
+		background: rgba(0, 0, 0, 0.9);
 	}
 
 	ul {
